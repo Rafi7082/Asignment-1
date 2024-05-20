@@ -58,7 +58,6 @@ h1 {
 .image-width {
     display: flex;
     margin-left: 100px;
-
 }
 
 .image-customize img {
@@ -70,7 +69,6 @@ h1 {
     width: 300px;
     margin: 50px;
     padding: 30px;
-
 }
 
 #image-one {
@@ -96,20 +94,17 @@ h1 {
 
 .first-side {
     width: 35%;
-
 }
 
 .second-side {
     width: 60%;
     margin-left: 3%;
-
 }
 
 .first-side img {
     width: 60%;
     border-radius: 20%;
     margin-left: 150px;
-
 }
 
 .forth-secton {
@@ -119,7 +114,6 @@ h1 {
     background-repeat: no-repeat;
     background-position: right bottom -50px;
     background-size: 150px 200px;
-
 }
 
 .forth-side {
@@ -129,4 +123,33 @@ h1 {
 .forth-side img {
     width: 60%;
     margin-left: 160px;
+}
+
+.fifth-section {
+    display: flex;
+    margin-top: 100px;
+}
+
+.fifth-first {
+    width: 50%;
+    background-color: rgba(11, 8, 224, 0.674);
+    padding-top: 180px;
+    text-align: center;
+}
+
+.fifth-second {
+    width: 50%;
+}
+
+.fifth-second img {
+    width: 100%;
+    display: block;
+}
+
+.footer-area {
+    background-image: linear-gradient(#0491b551, #b934048e);
+    height: 100px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 40px;
 }
