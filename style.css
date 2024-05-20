@@ -26,8 +26,9 @@ h1 {
 
 .first-width img {
     width: 60%;
-    margin-top: 60px;
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 50%;
 }
 
 .first-width p {
@@ -37,13 +38,17 @@ h1 {
 .link-button {
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(#EC0404, #383535);
+    background-image: linear-gradient(#a204ecba, #383535);
     padding: 10px 30px;
     border-radius: 10px;
 }
 
 .side-border {
     border-left: 4px solid orangered;
+}
+
+.second-section {
+    margin-bottom: 80px;
 }
 
 .second-section h1 {
@@ -78,4 +83,30 @@ h1 {
 
 #image-three {
     background-color: #dbde0742;
+}
+
+.third-section {
+    display: flex;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px 300px;
+}
+
+.first-side {
+    width: 35%;
+
+}
+
+.second-side {
+    width: 60%;
+    margin-left: 3%;
+
+}
+
+.first-side img {
+    width: 60%;
+    border-radius: 20%;
+    margin-left: 150px;
+
 }
