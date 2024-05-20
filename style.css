@@ -91,6 +91,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: left;
     background-size: 300px 300px;
+    margin-bottom: 150px;
 }
 
 .first-side {
@@ -109,4 +110,23 @@ h1 {
     border-radius: 20%;
     margin-left: 150px;
 
+}
+
+.forth-secton {
+    display: flex;
+    margin-left: 200px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom -50px;
+    background-size: 150px 200px;
+
+}
+
+.forth-side {
+    width: 50%;
+}
+
+.forth-side img {
+    width: 60%;
+    margin-left: 160px;
 }
