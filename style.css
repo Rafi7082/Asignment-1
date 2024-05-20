@@ -16,6 +16,7 @@ h1 {
 
 .first-section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .first-width {
@@ -43,4 +44,38 @@ h1 {
 
 .side-border {
     border-left: 4px solid orangered;
+}
+
+.second-section h1 {
+    text-align: center;
+}
+
+.image-width {
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.image-customize img {
+    width: 40%;
+}
+
+.image-customize {
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px;
+    padding: 30px;
+
+}
+
+#image-one {
+    background-color: #c80b2e1a;
+}
+
+#image-two {
+    background-color: rgba(21, 183, 183, 0.082);
+}
+
+#image-three {
+    background-color: #dbde0742;
 }
